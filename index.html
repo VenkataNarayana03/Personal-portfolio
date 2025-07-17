@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Venkata Narayana Mogili - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#academics">Academics</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#Connect with me">Connect with me</a></li>
+  </ul>
+</nav>
+
+  <div class="header-content">
+    <div class="text-content">
+      <h1>Venkata Narayana Mogili</h1>
+      <p>Web Developer</p>
+    </div>
+    <img src="photo.jpeg" alt="Venkata Narayana" class="profile-pic" />
+  </div>
+</header>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Venkata Narayana Mogili, a passionate web developer with strong skills in HTML, CSS, JavaScript and modern web technologies.
+       I enjoy creating elegant, efficient, and responsive user interfaces.
+       And I am also a beginner level coder in machine learning. </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>C++</li>
+      <li>Python</li>
+      <li>Excel</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+<section id="academics">
+  <H2>Academics</H2>
+  <ul>
+    <li>B.tech(CSE) - SRM University-AP (2023-2027) - 8.95</li>
+    <li>Intermediate(MPC) - Narayana College (2021-2023) - 985/1000</li>
+    <li>SSC - Sri Chaitanya School (2020-2021) - 591/600</li>
+  </ul>
+</section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3><a href="https://github.com/VenkataNarayana03/File-sharing-system-using-python" target="_blank"
+rel="noopener">File Sharing System</a></h3>
+      <p>A secure system for sharing files across devices over a network using socket library in Python.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/VenkataNarayana03/Weather-Website" target="_blank"
+rel="noopener">Weather Website</a></h3>
+      <p>A responsive weather website showing real-time data using a Weather API made using Html, Css and Js.</p>
+    </div>
+        <div class="project">
+      <h3><a href="https://github.com/VenkataNarayana03/Telecom-churn-retention" target="_blank"
+rel="noopener">Telecom Churn Retention</a></h3>
+      <p>A machine learning model predicting customer churn and helping retention strategy.</p>
+    </div>
+  </section>
+<section id="Certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li><a href="https://drive.google.com/file/d/1iRFykN1F9P1OCxBYLfkKIw23hOhGQhPC/view?usp=drivesdk" target="_blank"
+rel="noopener"> 
+      8-week machine learning internship with edunet foundation ( 3<sup>rd</sup>june 2024 - 31<sup>st</sup>july 2024)</a></li>
+    <li><a href="https://drive.google.com/file/d/15QXi0WwM39p__Jy8p_uDPwZqnujBBYNN/view?usp=drivesdk" target="_blank"
+rel="noopener">
+      Office Automation (MS-Office) course certification (15<sup>th</sup> june 2023 - 14<sup>th</sup> August 2023)</a></li>
+  </ul>
+
+</section>
+  <section id="resume">
+    <h2>Resume</h2>
+    <a target="_blank"
+rel="noopener" href="https://drive.google.com/file/d/19-hTgLBEZkBt7JaWBH6MDlrgF-U9y21_/view?usp=drivesdk" download>
+      Download My Resume (PDF)
+    </a>
+  </section>
+
+  <section id="Connect with me">
+    <h2>Connect with Me</h2>
+    <p>📧Email: <a href="mailto:venkatanarayana_mogili@srmap.edu.in" target="_blank">venkatanarayana_mogili@srmap.edu.in</a></p>
+    <p><i class="fab fa-linkedin"></i>LinkedIn: <a href="https://www.linkedin.com/in/venkata-narayana-mogili-20a03b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+      linkedin.com/in/venkata Narayana Mogili</a></p>
+    <p><i class="fab fa-github"></i>GitHub: <a href="https://github.com/VenkataNarayana03" target="_blank">github.com/VenkataNarayana03</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Venkata Narayana Mogili. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Fade-in animation on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+
+</html>
