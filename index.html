@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Venkata Narayana Mogili - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#academics">Academics</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#Certifications">Certifications</a></li>
+    <li><a href="#Connect with me">Connect with me</a></li>
+  </ul>
+</nav>
+
+  <div class="header-content">
+    <div class="text-content">
+      <h1>Venkata Narayana Mogili</h1>
+      <p> AI Engineer | Full Stack Developer | Machine Learning Enthusiast</p>
+    </div>
+    <img src="photo.jpeg" alt="Venkata Narayana" class="profile-pic" />
+  </div>
+</header>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p class="lead-summary">I am an aspiring AI engineer and full-stack developer who enjoys turning practical problems into reliable, user-friendly digital products.</p>
+    <p>My work spans machine learning, Retrieval-Augmented Generation (RAG), and modern web development&mdash;from detecting synthetic audio with deep learning to building document assistants and full-stack platforms.</p>
+    <p>Currently pursuing a B.Tech in Computer Science and Engineering at SRM University-AP (CGPA: 9.12), I bring hands-on project and internship experience in Python, JavaScript, REST APIs, databases, and applied AI.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+        <h3>AI &amp; Machine Learning</h3>
+        <div class="skill-tags"><span>TensorFlow</span><span>Keras</span><span>Scikit-learn</span><span>MFCC</span><span>NLP</span><span>Feature Engineering</span></div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-icon"><i class="fas fa-robot"></i></div>
+        <h3>Generative AI &amp; RAG</h3>
+        <div class="skill-tags"><span>Pinecone</span><span>Hugging Face</span><span>LLM APIs</span><span>Groq LLM</span><span>Embeddings</span><span>Semantic Search</span></div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+        <h3>Full-Stack Development</h3>
+        <div class="skill-tags"><span>React.js</span><span>FastAPI</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Tailwind CSS</span></div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <h3>Languages &amp; Data</h3>
+        <div class="skill-tags"><span>Python</span><span>C++</span><span>Java</span><span>JavaScript</span><span>SQL</span><span>PostgreSQL</span><span>MongoDB Atlas</span></div>
+      </div>
+    </div>
+  </section>
+<section id="academics">
+  <H2>Academics</H2>
+  <ul>
+    <li>B.tech(CSE) - SRM University-AP (2023-2027) - 9.12(upto 6th semester)</li>
+    <li>Intermediate(MPC) - Narayana College (2021-2023) - 985/1000</li>
+    <li>SSC - Sri Chaitanya School (2020-2021) - 591/600</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Work Experience</h2>
+  <div class="experience-item">
+    <h3>Machine Learning Intern</h3>
+    <p><strong>EduNet Foundation</strong> | June 03, 2024 - July 31, 2024</p>
+    <p>Completed an 8-week machine learning internship gaining hands-on experience in ML algorithms, data preprocessing, and model development.</p>
+  </div>
+  <div class="experience-item">
+    <h3>Full Stack Intern</h3>
+    <p><strong>EduNet Foundation</strong> | June 23, 2025 - August 04, 2025</p>
+    <p>Developed a role-based full-stack web application for managing blood donations, requests, and inventory for donors, recipients, and admins. Built with Node.js, Express, HTML, CSS, JavaScript, and MongoDB Atlas, deployed on Render.</p>
+  </div>
+</section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <div class="project-heading"><h3>DeepFake Audio Detection System</h3><a class="project-link" href="https://github.com/VenkataNarayana03/fake-audio-detection" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
+      <p>Developed a CNN-based deep learning model for detecting spoofed and synthetic audio using the ASVspoof 2019 dataset.</p>
+      <p><strong>Highlights:</strong> Implemented audio preprocessing, MFCC feature extraction, model training, evaluation, and real-time inference pipelines in Python using TensorFlow and Keras.</p>
+    </div>
+    <div class="project">
+      <div class="project-heading"><h3>DocuMind AI &ndash; Intelligent Document Assistant</h3><a class="project-link" href="https://github.com/VenkataNarayana03/DocuMind-AI" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
+      <p>Built an AI-powered document assistant using a Retrieval-Augmented Generation (RAG) architecture.</p>
+      <p><strong>Highlights:</strong> Developed document ingestion, vector embedding, semantic retrieval, and context-aware response pipelines with Python, Pinecone, Hugging Face embeddings, and LLM APIs.</p>
+    </div>
+    <div class="project">
+      <div class="project-heading"><h3>Code Similarity and Plagiarism Detector</h3><a class="project-link" href="https://github.com/VenkataNarayana03/code_similarity_check_using_cpp" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
+      <p>Developed a C++ source-code plagiarism detection system that compares multiple files using tokenization, N-gram analysis, and similarity measurement.</p>
+      <p><strong>Highlights:</strong> Implemented preprocessing, variable normalization, Jaccard and cosine similarity scoring, plus a modular architecture for parsing, reports, and file handling.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-heading"><h3>Blood Bank Management System</h3><div class="project-actions"><a class="project-link" href="https://github.com/VenkataNarayana03/blood-bank-management-system" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a><a class="project-link demo-link" href="https://blood-bank-management-system-1-o3z8.onrender.com/" target="_blank" rel="noopener"><i class="fas fa-arrow-up-right-from-square"></i> Live Demo</a></div></div>
+      <p>A full-stack web app for managing blood donations, requests, and inventory with role-based access for donors, recipients, and admins.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Express.js, REST API, MongoDB Atlas, Render</p>
+    </div>
+    <div class="project">
+      <div class="project-heading"><h3>E-Commerce Platform</h3><a class="project-link" href="https://github.com/VenkataNarayana03/E-commerce" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
+      <p>Developed a full-stack e-commerce platform with a responsive React frontend and FastAPI backend, including product browsing, category filtering, shopping cart, authentication, and order management.</p>
+      <p><strong>Technologies:</strong> React.js, FastAPI, PostgreSQL, SQLAlchemy, JavaScript, HTML, CSS, Tailwind CSS, REST API</p>
+    </div>
+    <div class="project">
+      <div class="project-heading"><h3>FaqFlow-AI-RAGBot</h3><a class="project-link" href="https://github.com/VenkataNarayana03/faq-flow-ai-using-RAG" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div>
+      <p>Built a conversational AI assistant with RAG architecture to provide grounded, context-aware responses from retrieved knowledge.</p>
+      <p><strong>Technologies:</strong> Python, FastAPI, JavaScript, Pinecone, Hugging Face, Groq LLM</p>
+    </div>
+  </section>
+<section id="Certifications">
+  <h2>Certifications</h2>
+  <ul>
+     <li><a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=F1132C2F33B48E1E2310EA1E91420C5C56679C940EA49ED92A713E746C6B6DB7" target="_blank" rel="noopener">
+      oracle java se17 certification</a>
+          
+      </li>
+    <li><a href="https://drive.google.com/file/d/15QXi0WwM39p__Jy8p_uDPwZqnujBBYNN/view?usp=drivesdk" target="_blank"
+rel="noopener">
+      Office Automation (MS-Office) course certification (15<sup>th</sup> june 2023 - 14<sup>th</sup> August 2023)</a></li>
+     
+  </ul>
+</section>
+
+  <section id="Connect with me">
+    <h2>Connect with Me</h2>
+    <p>📧Email: <a href="mailto:venkatanarayanamogili412@gmail.com" target="_blank">venkatanarayanamogili412@gmail.com</a></p>
+    <p><i class="fab fa-linkedin"></i>LinkedIn: <a href="https://www.linkedin.com/in/venkatanarayanamogili/" target="_blank">
+      linkedin.com/in/venkata Narayana Mogili</a></p>
+    <p><i class="fab fa-github"></i>GitHub: <a href="https://github.com/VenkataNarayana03" target="_blank">github.com/VenkataNarayana03</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p>Feel free to reach out to me for collaborations, opportunities, or just to say hello!</p>
+    
+    <form class="contact-form" id="contact-form">
+      <div class="form-group">
+        <label for="name"><i class="fas fa-user"></i> Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+      </div>
+      
+      <div class="form-group">
+        <label for="email"><i class="fas fa-envelope"></i> Email</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+      </div>
+      
+      <div class="form-group">
+        <label for="subject"><i class="fas fa-heading"></i> Subject</label>
+        <input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+      </div>
+      
+      <div class="form-group">
+        <label for="message"><i class="fas fa-comment"></i> Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+      </div>
+      
+      <button type="submit" class="submit-btn">
+        <i class="fas fa-paper-plane"></i> Send Message
+      </button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Venkata Narayana Mogili. All rights reserved.</p>
+  </footer>
+
+  <script>
+    (function() {
+      emailjs.init("xL2SBwUtOmjizAnxs"); 
+    })();
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+
+    const EMAILJS_SERVICE_ID = 'service_diy3888';
+    const EMAILJS_TEMPLATE_ID = 'template_39m0vve'; 
+    const EMAILJS_PUBLIC_KEY = 'xL2SBwUtOmjizAnxs';
+
+    function showNotification(message, type) {
+      const existingNotification = document.querySelector('.notification');
+      if (existingNotification) {
+        existingNotification.remove();
+      }
+      
+      const notification = document.createElement('div');
+      notification.className = `notification ${type}`;
+      notification.textContent = message;
+      
+      notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        z-index: 1000;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        ${type === 'success' ? 'background: #28a745;' : 'background: #dc3545;'}
+      `;
+      
+      document.body.appendChild(notification);
+      
+      setTimeout(() => {
+        notification.style.transform = 'translateX(0)';
+      }, 100);
+      
+      setTimeout(() => {
+        notification.style.transform = 'translateX(100%)';
+        setTimeout(() => {
+          notification.remove();
+        }, 300);
+      }, 3000);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.getElementById('contact-form');
+      
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          const name = document.getElementById('name').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const subject = document.getElementById('subject').value.trim();
+          const message = document.getElementById('message').value.trim();
+          
+          if (!name || !email || !subject || !message) {
+            showNotification('Please fill in all fields', 'error');
+            return;
+          }
+          
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          if (!emailRegex.test(email)) {
+            showNotification('Please enter a valid email address', 'error');
+            return;
+          }
+          
+          const submitBtn = contactForm.querySelector('.submit-btn');
+          const originalText = submitBtn.innerHTML;
+          submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+          submitBtn.disabled = true;
+          
+          if (!window.emailjs) {
+            showNotification('EmailJS not loaded. Please refresh the page.', 'error');
+            return;
+          }
+          const templateParams = {
+            from_name: name,
+            from_email: email,
+            subject: subject,
+            message: message,
+            to_email: 'venkatanarayanamogili412@gmail.com'
+          };
+
+          console.log('Sending email with params:', templateParams);
+          console.log('Service ID:', EMAILJS_SERVICE_ID);
+          console.log('Template ID:', EMAILJS_TEMPLATE_ID);
+
+          emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+          .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            showNotification('Message sent successfully!', 'success');
+            contactForm.reset();
+          })
+          .catch(function(error) {
+            console.log('FAILED...', error);
+            console.log('Error details:', error.text || error);
+            
+            if (error.text && error.text.includes('User ID is required')) {
+              showNotification('EmailJS configuration error. Check public key.', 'error');
+            } else if (error.text && error.text.includes('The browser is blocked')) {
+              showNotification('Browser blocked. Check popup settings.', 'error');
+            } else {
+              showNotification(`Failed to send: ${error.text || 'Unknown error'}`, 'error');
+            }
+          })
+          .finally(function() {
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+          });
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
